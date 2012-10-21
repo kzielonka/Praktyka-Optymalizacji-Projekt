@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  21 OCT 2012 15:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  21 OCT 2012 20:31
 entering extended mode
  %&-line parsing enabled.
 **prezentacja.tex
@@ -1148,7 +1148,14 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./slajdy/opis_problemu.tex
+(./slajdy/opis_nieformalny.tex)
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[2
+
+] (./slajdy/opis_problemu.tex
 LaTeX Font Info:    Try loading font information for U+txsya on input line 3.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
@@ -1187,39 +1194,29 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <6> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 5.69998pt on input line 3.
 )
-Overfull \hbox (51.01408pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \vbox (17.09909pt too high) detected at line 26
  []
 
-[2
 
-] (./slajdy/opis_problemu.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [3
 
-] (./slajdy/opis_problemu.tex)
+] (./slajdy/opis_matematyczny.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [4
 
-] (./slajdy/opis_problemu.tex)
+] (./slajdy/nierownosc_trojkata.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [5
-
-] (./slajdy/opis_matematyczny.tex)
-Overfull \hbox (51.01408pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[6
 
 ] (./slajdy/cel.tex
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
@@ -1229,27 +1226,34 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[7
+[6
 
 ] (./slajdy/cel.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[8
+[7
 
-] (./slajdy/funkcja_celu.tex)
-Overfull \vbox (4.67877pt too high) detected at line 34
+] (./slajdy/rozwiazanie.tex)
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
+[8
 
+]
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
-] (./slajdy/przestrzen_poszukiwan.tex)
+] (./slajdy/funkcja_celu.tex)
+Overfull \vbox (1.59885pt too high) detected at line 50
+ []
+
+
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1270,6 +1274,13 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [12
 
+] (./slajdy/przestrzen_poszukiwan.tex)
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
 ]
 \tf@nav=\write5
 \openout5 = `prezentacja.nav'.
@@ -1282,24 +1293,23 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
  (./prezentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 13928 strings out of 495026
- 239568 string characters out of 1181803
- 324238 words of memory out of 3000000
- 16651 multiletter control sequences out of 15000+50000
- 40733 words of font info for 71 fonts, out of 3000000 for 9000
+ 13945 strings out of 495026
+ 239739 string characters out of 1181803
+ 325238 words of memory out of 3000000
+ 16659 multiletter control sequences out of 15000+50000
+ 43555 words of font info for 75 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
  45i,15n,57p,321b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/font
 s/type1/public/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1/public/tx
-fonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsyc.pfb><
-/usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-
-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb>
-Output written on prezentacja.pdf (12 pages, 125386 bytes).
+fonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on prezentacja.pdf (13 pages, 130380 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,22 +1,25 @@
 \begin{block}{Funkcja celu}
 	\begin{equation}
-		C : V^n \times \left\{ V \right\} \times R \rightarrow R
+		F : V^n \rightarrow R
 	\end{equation}
 
 	\begin{equation}
-		C(v, \left\{ v \right\}, t) = 0
+		F(v_1 \cdots v_n) = C(v_1, \cdots, V_n, 0)
 	\end{equation}
 
 	\begin{equation}
-		C(v, \empty, t) = p(v, t)
+		C : V^m \times t \rightarrow R \ \ \ \text{gdzie} \ m > 0
 	\end{equation}
 
 	\begin{equation}
-		C(v_1, \cdots, v_n, U, t) = \begin{cases}
-			C(v_2, \cdots, v_n, U \cup \left\{ v_1 \right\}, t + w(\left\{v_1, v_2\right\}) \\ 
-			\	\	\	\text{gdy} \ v_1 \in U \\
-			C(v_2, \cdots, v_n, U, t + w(\left\{v_1, v_2\right\})) + p(v_1, t) \\
-			\	\	\	\text{gdy} \ v_1 \not\in U \\
+		C(v, t) = \begin{cases}
+			p(v, t) 	& \text{gdy} \ t < t_{max} 	\\
+			+inf	 	& \text{wpp}			\\
 		\end{cases}
 	\end{equation}
+
+	\begin{equation}
+		C(v_1, \cdots, v_n, t) = \min\limits_{t \leq t_c \le t_{max}}\left\{ C(v_2, \cdots, v_n, t_c + w(v_1, v_2)) + p(t_c) \right\}
+	\end{equation}
+
 \end{block}
