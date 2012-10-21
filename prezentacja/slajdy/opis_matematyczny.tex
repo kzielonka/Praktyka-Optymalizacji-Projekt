@@ -1,17 +1,18 @@
 \begin{block}{Opis problemu}
 	\begin{equation}
-		G = \left< V, E, w, t_{min}, t_{max} \right>
+		G = \left< V, E, w, p \right>
 	\end{equation}
-	Czy na pewno to musi być graf pełny? JAK NIE USUNĄĆ TO :
 	\begin{equation}
 		E = \left\{ \{v, u\} \ : \ v, u \in V \right\}
 	\end{equation}
 	\begin{equation}
-		w, t_{min}, t_{max} : V \rightarrow R
+		w : V \rightarrow R
+	\end{equation}
+	\begin{equation}
+		p : V \times R \rightarrow R
 	\end{equation}
 	\begin{description}
-		\item[$w$] -- przyporządkowuje krawędziom wagi
-		\item[$t_{min}$] -- przyporządkowuje wierzchołkom minimalny czas przybycia
-		\item[$t_{max}$] -- przyporzadkowuje wierzchołkom maksymalny czas przybycia
+		\item[$w$] -- przyporządkowuje krawędziom wagi (czasy podróży)
+		\item[$p$] -- funckja kary, dla danego wierzchołka i czasu przybcia zwraca kare w postaci liczby rzeczywistej
 	\end{description}
 \end{block}

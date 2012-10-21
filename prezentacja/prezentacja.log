@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  21 OCT 2012 01:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  21 OCT 2012 15:57
 entering extended mode
  %&-line parsing enabled.
 **prezentacja.tex
@@ -1214,19 +1214,12 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [5
 
-] (./slajdy/opis_problemu.tex)
-Overfull \hbox (51.01408pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[6
-
 ] (./slajdy/opis_matematyczny.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[7
+[6
 
 ] (./slajdy/cel.tex
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
@@ -1236,16 +1229,27 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[8
+[7
 
 ] (./slajdy/cel.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[9
+[8
 
 ] (./slajdy/funkcja_celu.tex)
+Overfull \vbox (4.67877pt too high) detected at line 34
+ []
+
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+] (./slajdy/przestrzen_poszukiwan.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1266,13 +1270,6 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [12
 
-] (./slajdy/przestrzen_poszukiwan.tex)
-Overfull \hbox (51.01408pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[13
-
 ]
 \tf@nav=\write5
 \openout5 = `prezentacja.nav'.
@@ -1285,9 +1282,9 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
  (./prezentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 13932 strings out of 495026
- 239639 string characters out of 1181803
- 324237 words of memory out of 3000000
+ 13928 strings out of 495026
+ 239568 string characters out of 1181803
+ 324238 words of memory out of 3000000
  16651 multiletter control sequences out of 15000+50000
  40733 words of font info for 71 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
@@ -1296,12 +1293,13 @@ Here is how much of TeX's memory you used:
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/font
 s/type1/public/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1/public/tx
-fonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></
-usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-t
-exlive/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on prezentacja.pdf (13 pages, 130884 bytes).
+fonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsyc.pfb><
+/usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-
+texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb>
+Output written on prezentacja.pdf (12 pages, 125386 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
