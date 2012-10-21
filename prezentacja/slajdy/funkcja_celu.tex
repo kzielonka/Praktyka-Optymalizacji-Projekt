@@ -1,0 +1,18 @@
+\begin{block}{Funkcja celu}
+	% Zakładam że każdy wierzchołek można odwiedzieć DOKŁADNIE raz. (nie wiem czy dobrze bo zgubiłęm kartki z zadaniem :P )
+	\begin{equation}
+		T(v_1, \cdots, v_n) = \sum\limits_2^n max(w(\{v_{i-1}, v_i\}), t_{min}(v_i))
+	\end{equation}
+	\begin{equation}
+		P(v_1, \cdots, v_n) = \begin{cases}
+			1 & \text{gdy} \ \forall_{1 \leq i \leq n} T(v1, \cdots, v_i) \leq t_{max}(v_i) \\
+			0 & \text{wpp} \\
+		\end{cases}
+	\end{equation}
+	\begin{equation}
+		F(v_1, \cdots, v_n) = \begin{cases}
+			T(v_1, \cdots, v_n)	& \text{gdy} \ P(v_1, \cdots, v_n) \\
+			+\infty 		& \text{wpp} \\
+		\end{cases}
+	\end{equation}
+\end{block}

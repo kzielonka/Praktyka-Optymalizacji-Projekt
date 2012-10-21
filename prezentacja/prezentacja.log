@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  20 OCT 2012 17:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  21 OCT 2012 01:23
 entering extended mode
  %&-line parsing enabled.
 **prezentacja.tex
@@ -967,49 +967,49 @@ Package: beamercolorthemewhale 2007/01/28  (rcs-revision 1.4)
 No file prezentacja.aux.
 \openout1 = `prezentacja.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 15.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 15.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 16.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 16.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 16.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 16.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 16.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+txss on input line 15.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 16.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 15.
+(Font)              scaled to size 10.40245pt on input line 16.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1065,7 +1065,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 16.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -1074,72 +1074,72 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
 \@outlinefile=\write4
 \openout4 = `prezentacja.out'.
 
 \AtBeginShipoutBox=\box53
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 15.
+(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/cmss/bx/n on input line 15.
+(Font)                  OT1/txr/bx/n --> OT1/cmss/bx/n on input line 16.
 \symnumbers=\mathgroup10
 \sympureletters=\mathgroup11
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/txr/m/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 15.
+(Font)                  OT1/cmss/m/n --> T1/txr/m/n on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 15.
+(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 15.
+(Font)                  OT1/txr/bx/n --> T1/txss/bx/n on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 15.
+(Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> T1/txss/m/n on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 15.
+(Font)                  OT1/txss/b/n --> T1/txss/m/n on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/txr/m/it --> T1/txss/m/it on input line 15.
+(Font)                  OT1/txr/m/it --> T1/txss/m/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/bx/it --> T1/txss/m/it on input line 15.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 15.
+(Font)                  OT1/txr/bx/it --> T1/txss/m/it on input line 16.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 15.
+(Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> T1/txtt/m/n on input line 15.
+(Font)                  OT1/txtt/b/n --> T1/txtt/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 15.
+(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 15.
+(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/txr/bx/n on input line 15.
+(Font)                  OT1/cmss/bx/n --> T1/txr/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/txss/bx/n --> T1/txss/bx/n on input line 15.
+(Font)                  T1/txss/bx/n --> T1/txss/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 15.
+(Font)                  T1/txss/m/n --> T1/txss/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 15.
+(Font)                  T1/txss/m/it --> T1/txss/bx/it on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/txtt/m/n --> T1/txtt/bx/n on input line 15.
+(Font)                  T1/txtt/m/n --> T1/txtt/bx/n on input line 16.
 
 (/usr/share/texmf-texlive/tex/latex/translator/translator-theorem-dictionary-En
 glish.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./prezentacja.nav)
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 15.
+(Font)              scaled to size 5.69998pt on input line 16.
 
-Overfull \hbox (51.01408pt too wide) in paragraph at lines 15--15
+Overfull \hbox (51.01408pt too wide) in paragraph at lines 16--16
  [][][][]  
  []
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 17.
+(Font)              scaled to size 13.67995pt on input line 18.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 17.
+(Font)              scaled to size 7.59998pt on input line 18.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 17.
+(Font)              scaled to size 3.79999pt on input line 18.
 
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
@@ -1245,7 +1245,7 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [9
 
-] (./slajdy/przestrzen_poszukiwan.tex)
+] (./slajdy/funkcja_celu.tex)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1266,6 +1266,13 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [12
 
+] (./slajdy/przestrzen_poszukiwan.tex)
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
 ]
 \tf@nav=\write5
 \openout5 = `prezentacja.nav'.
@@ -1278,22 +1285,23 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
  (./prezentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 13919 strings out of 495026
- 239375 string characters out of 1181803
- 323238 words of memory out of 3000000
- 16645 multiletter control sequences out of 15000+50000
- 39356 words of font info for 69 fonts, out of 3000000 for 9000
+ 13932 strings out of 495026
+ 239639 string characters out of 1181803
+ 324237 words of memory out of 3000000
+ 16651 multiletter control sequences out of 15000+50000
+ 40733 words of font info for 71 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
  45i,15n,57p,321b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/font
-s/type1/public/txfonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/urw/helve
-tic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></
-usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on prezentacja.pdf (12 pages, 120073 bytes).
+s/type1/public/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1/public/tx
+fonts/txsy.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on prezentacja.pdf (13 pages, 130884 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
