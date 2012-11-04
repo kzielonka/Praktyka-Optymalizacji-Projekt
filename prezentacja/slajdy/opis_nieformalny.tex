@@ -1,9 +1,52 @@
-\begin{block}{Opis problemu}
-	\begin{itemize}
-		\item Należy dostarczyć towary do miast
-		\item Każde miasto ma określone terminy, w których należy dostarczyć towar
-		\item Przemieszczanie miedzy miastami zajmuje pewien czas
-		\item Nidotrzymanie terminu wiąże się z otrzymaniem kary
-		\item Rozwiązaniem problemu jest ciąg miast, który minimalizuje koszt dostarczenia towarów do wszystkich miast.
-	\end{itemize}
-\end{block}
+\begin{frame}
+	\begin{block}{Opis problemu (orginalny)}
+		Jako firma transportowa mamy dostarczyć towary do miast. 
+		Każde miasto ma ustaloną kare za spóźnienie lub przybycie zawcześnie. 
+		Przemieszczenia się między miastami trwa pewną liczbę czasu.
+		Należy znalęść ciąg miast, dla którego ciężarówka odwiedza każde miasto i minimalizujący sumę kar jaką trzeba zapłacić za zbyt wczesne lub zbyt późne przybycie.
+		%\begin{itemize}
+		%	\item Należy dostarczyć towary do miast
+		%	\item Każde miasto ma określone terminy, w których należy dostarczyć towar
+		%	\item Przemieszczanie miedzy miastami zajmuje pewien czas
+		%	\item Nidotrzymanie terminu wiąże się z otrzymaniem kary
+		%	\item Rozwiązaniem problemu jest ciąg miast, który minimalizuje koszt dostarczenia towarów do wszystkich miast.
+		%\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{block}{Nasze założenia}
+		\begin{itemize}
+			\item Ciężarówka ma nieskończoną pojemność (jest w stanie zabrać towary dla wszystkich miast).
+			\item Dla każdego miasta mamy funkcje kary od czasu (ogólniejszy wariant kar).
+			\item Czas jest w postaci liczby naturalnej (np liczba sekund).
+			\item Znamy pewne górne ogranicznie czasowe, które okresla maksymalny czas przejazdu.
+			\item Rozładunek i załadunek nie wymaga czasu.
+			\item W kązdym miesic możemy czekać dowolną liczbe czasu znim wyładujemy towar.
+			\item Znamy wierzchołek startowy (magazyn).
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{block}{Instancja problemu}
+		Miastom przyporządkowujmey numery.
+		Instancją problemu jest para:
+		\begin{equation}
+			P = \left< T, p \right>
+		\end{equation}
+	\end{block}
+	\begin{block}{Macierz czasu przajazdów}		
+		\begin{equation}
+			T = \left[ t_{ij} \right]_{n \times n} 
+		\end{equation}
+		Kwadratowa maciarz gdzie element $t_{ij}$ to czas potrzebny na przejazd najszybszą drogą z miasta $i$ do $j$.
+	\end{block}
+	\begin{block}{Funkcja kary}
+		\begin{equation}
+			p : N \rightarrow N \rightarrow R 
+		\end{equation}
+		Funkcja kary, przyjmująca kolejno numer miasta, czas rozładunku i zwracająca karę w postaci liczby rzeczywistej.
+	\end{block}
+\end{frame}
+
