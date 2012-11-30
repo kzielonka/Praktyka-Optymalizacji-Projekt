@@ -1,15 +1,8 @@
-\begin{block}{Opis problemu}
-	Przez $DT$ oznaczmy problem dystrybucji towarów:
+\begin{frame}{Opis problemu}
+	
 	\begin{equation}
 		DT = \left< V, w, p, t_{max}\right>
 	\end{equation}
-	%Graf:
-	%\begin{equation}
-	%	G = \left< V, E \right>
-	%\end{equation}
-	%\begin{equation}
-	%	E = \left\{ \{v, u\} \ : \ v, u \in V \right\}
-	%\end{equation}
 	\begin{equation}
 		t : V \rightarrow N
 	\end{equation}
@@ -21,4 +14,50 @@
 		\item[$p$] -- funckja kary, dla danego wierzchołka i czasu przybcia zwraca kare w postaci liczby rzeczywistej
 		\item[$t_{max}$] -- górne ograniczenie na czas potrzebny na pokonaniem dystansu
 	\end{description}
-\end{block}
+
+\end{frame}
+
+\begin{frame}
+	
+	\begin{block}{Instancja problemu}
+		Miastom przyporządkowujmey kolejno numery $2, \cdots, n$.
+		Dla uproszczenia będziemy zakładać, że magazyn zawsze ma numer $1$.
+		Instancją problemu jest para:
+		\begin{equation}
+			P = \left< T, p \right>
+		\end{equation}
+	\end{block}
+	
+	\begin{block}{Macierz czasu przajazdów}		
+		\begin{equation}
+			T = \left[ t_{ij} \right]_{n \times n} 
+		\end{equation}
+		Kwadratowa maciarz gdzie element $t_{ij}$ to czas potrzebny na przejazd najszybszą drogą z miasta $i$ do $j$.
+	\end{block}
+	
+	\begin{block}{Funkcja kary}
+		\begin{equation}
+			p : N \rightarrow N \rightarrow R 
+		\end{equation}
+		Funkcja kary, przyjmująca kolejno numer miasta, czas rozładunku i zwracająca karę w postaci liczby rzeczywistej.
+	\end{block}
+
+\end{frame}
+
+\begin{frame}{Graf miast}
+		
+	W grafie miast, wierzchołki interpretujemy jako miasta, a wagi na krawędziach jako czasy potrzebne na przedostanie sie z jednego miasta do drugiego.
+	Czas na krawędzi $\{u, v\}$ jest najszybszym czasem potrzebnym na przedostanie sie z miasta $u$ do $v$.
+	\begin{itemize}
+		\item Graf miast spełnia nierówność trójkąta
+			\begin{equation}
+				a < b + c \ \wedge \ b < a + c \ \wedge \ c < a + b
+			\end{equation}
+			\begin{equation}
+				\forall_{a,b,c \in V} t(\left\{a, c\right\}) < t(\left\{a, b\right\}) + t(\left\{b, c\right\})
+			\end{equation}
+		\item Graf miast jest grafem pełnym
+	\end{itemize}
+	Jeżeli graf niespłnia jednego z powyższych założen to możemy go do takiego przekonwertować wywołujac dla każdego wierzchołka $BFS$.
+
+\end{frame}
