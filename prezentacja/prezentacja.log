@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  7 NOV 2012 09:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  9 DEC 2012 10:25
 entering extended mode
  %&-line parsing enabled.
 **prezentacja.tex
@@ -1198,43 +1198,44 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [3
 
-]
-LaTeX Font Info:    Try loading font information for U+txsya on input line 50.
- (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
+]) (./slajdy/opis_problemu.tex
+LaTeX Font Info:    Try loading font information for U+txsya on input line 12.
+
+(/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 50.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 12.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 50.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 12.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 50.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 12.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 50.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 12.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 50.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 50.
+(Font)              scaled to size 10.40245pt on input line 12.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <8> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 50.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 50.
+(Font)              scaled to size 7.59998pt on input line 12.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <6> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 50.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 50.
+(Font)              scaled to size 5.69998pt on input line 12.
 
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
@@ -1242,7 +1243,7 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [4
 
-]
+]) (./slajdy/opis_matematyczny.tex
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1256,35 +1257,28 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [6
 
-]) (./slajdy/funkcja_celu.tex
+]
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [7
 
-]) (./slajdy/zlozonosc_problemu.tex
+]) (./slajdy/nierownosc_trojkata.tex
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [8
 
-]
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 30.
-
+]) (./slajdy/opis_matematyczny2.tex
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
-]) (./slajdy/algorytm_konstrukcyjny.tex
-Overfull \vbox (1.00473pt too high) detected at line 25
- []
-
-
+]) (./slajdy/funkcja_celu.tex
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
@@ -1298,14 +1292,124 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [11
 
-]
+]) (./slajdy/zlozonosc_problemu.tex
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [12
 
-])
+]
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 10.40245pt on input line 33.
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+]) (./slajdy/algorytm_konstrukcyjny.tex
+Overfull \vbox (0.79147pt too high) detected at line 23
+ []
+
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+]
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
+
+]
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
+
+]) (./slajdy/si.tex
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 16.
+LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
+(Font)              scaled to size 13.67995pt on input line 16.
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
+
+] <./slajdy/1.jpg, id=480, 813.0375pt x 565.36218pt>
+File: ./slajdy/1.jpg Graphic file (type jpg)
+ <use ./slajdy/1.jpg>
+Overfull \hbox (19.0761pt too wide) in paragraph at lines 23--23
+[][]  
+ []
+
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[18
+
+ <./slajdy/1.jpg>] <./slajdy/2.jpg, id=507, 842.39719pt x 545.78906pt>
+File: ./slajdy/2.jpg Graphic file (type jpg)
+
+<use ./slajdy/2.jpg>
+Overfull \hbox (30.81976pt too wide) in paragraph at lines 30--30
+[][]  
+ []
+
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
+
+ <./slajdy/2.jpg>] <./slajdy/3.jpg, id=535, 792.71156pt x 386.19281pt>
+File: ./slajdy/3.jpg Graphic file (type jpg)
+
+<use ./slajdy/3.jpg>
+Overfull \hbox (10.94586pt too wide) in paragraph at lines 37--37
+[][]  
+ []
+
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
+
+ <./slajdy/3.jpg>] <./slajdy/4.jpg, id=562, 810.02625pt x 584.1825pt>
+File: ./slajdy/4.jpg Graphic file (type jpg)
+
+<use ./slajdy/4.jpg>
+Overfull \hbox (17.87161pt too wide) in paragraph at lines 44--44
+[][]  
+ []
+
+
+Overfull \vbox (0.56335pt too high) detected at line 44
+ []
+
+
+Overfull \hbox (51.01408pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
+
+ <./slajdy/4.jpg>])
 \tf@nav=\write5
 \openout5 = `prezentacja.nav'.
 
@@ -1317,13 +1421,13 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
  (./prezentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 14919 strings out of 495026
- 251637 string characters out of 1181803
+ 15003 strings out of 495026
+ 253305 string characters out of 1181803
  367496 words of memory out of 3000000
- 17644 multiletter control sequences out of 15000+50000
- 43555 words of font info for 75 fonts, out of 3000000 for 9000
+ 17688 multiletter control sequences out of 15000+50000
+ 46807 words of font info for 78 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 45i,18n,57p,319b,696s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,18n,57p,319b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/
@@ -1332,9 +1436,9 @@ ic/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/te
 xmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts
 /type1/urw/helvetic/uhvr8a.pfb>
-Output written on prezentacja.pdf (12 pages, 137910 bytes).
+Output written on prezentacja.pdf (21 pages, 718237 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 628 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

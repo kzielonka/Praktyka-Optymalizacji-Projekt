@@ -1,91 +1,22 @@
-\begin{frame}
-	\begin{block}{Opis problemu (orginalny)}
-		Jako firma transportowa mamy dostarczyć towary do miast. 
-		Każde miasto ma ustaloną kare za spóźnienie lub przybycie zawcześnie. 
-		Przemieszczenia się między miastami trwa pewną liczbę czasu.
-		Należy znalęść ciąg miast, dla którego ciężarówka odwiedza każde miasto i minimalizujący sumę kar jaką trzeba zapłacić za zbyt wczesne lub zbyt późne przybycie.
-		%\begin{itemize}
-		%	\item Należy dostarczyć towary do miast
-		%	\item Każde miasto ma określone terminy, w których należy dostarczyć towar
-		%	\item Przemieszczanie miedzy miastami zajmuje pewien czas
-		%	\item Nidotrzymanie terminu wiąże się z otrzymaniem kary
-		%	\item Rozwiązaniem problemu jest ciąg miast, który minimalizuje koszt dostarczenia towarów do wszystkich miast.
-		%\end{itemize}
-	\end{block}
+\begin{frame}{Opis problemu (orginalny)}
+	
+	Jako firma transportowa mamy dostarczyć towary do miast. 
+	Każde miasto ma ustaloną karę za spóźnienie lub przybycie zawcześnie. 
+	Przemieszczenie się między miastami trwa pewną liczbę czasu.
+	Należy znalęść ciąg miast, dla którego ciężarówka odwiedza każde miasto i minimalizujący sumę kar jaką trzeba zapłacić za zbyt wczesne lub zbyt późne przybycie.
+	
 \end{frame}
 
-\begin{frame}
-	\begin{block}{Nasze założenia}
-		\begin{itemize}
-			\item Ciężarówka ma nieskończoną pojemność.
-			      Jest w stanie zabrać towary dla wszystkich miast.
-			\item Dla każdego miasta mamy funkcje kary od czasu .
-			      Ogólniejszy wariant kar.
-			\item Czas jest w postaci liczby naturalnej 
-			      np liczba sekund
-			\item Znamy pewne górne ogranicznie czasowe, które określa maksymalny czas przejazdu.			   
-			\item Rozładunek i załadunek nie wymaga czasu.
-			\item W kązdym miesic możemy czekać dowolną liczbe czasu znim wyładujemy towar.
-			\item Znamy wierzchołek startowy (magazyn).
-		\end{itemize}
-	\end{block}
+\begin{frame}{Nasze założenia}
+
+	\begin{itemize}
+		\item Ciężarówka ma nieskończoną pojemność. Jest w stanie zabrać towary dla wszystkich miast
+		\item Dla każdego miasta mamy funkcje kary od czasu. Ogólniejszy wariant kar
+		\item Czas jest w postaci liczby naturalnej np. liczba sekund
+		\item Znamy pewne górne ogranicznie czasowe, które określa maksymalny czas przejazdu			   
+		\item Rozładunek i załadunek nie wymaga czasu
+		\item W kązdym miesic możemy czekać dowolną liczbe czasu znim wyładujemy towar
+		\item Znamy wierzchołek startowy (magazyn)
+	\end{itemize}
+
 \end{frame}
-
-\begin{frame}
-	\begin{block}{Graf miast}
-		W grafie miast, wierzchołki interpretujemy jako miasta, a wagi na krawędziach jako czasy potrzebne na przedostanie sie z jednego miasta do drugiego.
-		Czas na krawędzi $\{u, v\}$ jest najszybszym czasem potrzebnym na przedostanie sie z miasta $u$ do $v$.
-		\begin{itemize}
-			\item Graf miast spełnia nierówność trójkąta
-				\begin{equation}
-					a < b + c \ \wedge \ b < a + c \ \wedge \ c < a + b
-				\end{equation}
-				\begin{equation}
-					\forall_{a,b,c \in V} t(\left\{a, c\right\}) < t(\left\{a, b\right\}) + t(\left\{b, c\right\})
-				\end{equation}
-			\item Graf miast jest grafem pełnym
-		\end{itemize}
-		Jeżeli graf niespłnia jednego z powyższych założen to możemy go do takiego przekonwertować wywołujac dla każdego wierzchołka $BFS$.
-	\end{block}
-\end{frame}
-
-\begin{frame}
-	\begin{block}{Instancja problemu}
-		Miastom przyporządkowujmey kolejno numery $2, \cdots, n$.
-		Dla uproszczenia będziemy zakładać, że magazyn zawsze ma numer $1$.
-		Instancją problemu jest para:
-		\begin{equation}
-			P = \left< T, p \right>
-		\end{equation}
-	\end{block}
-	\begin{block}{Macierz czasu przajazdów}		
-		\begin{equation}
-			T = \left[ t_{ij} \right]_{n \times n} 
-		\end{equation}
-		Kwadratowa maciarz gdzie element $t_{ij}$ to czas potrzebny na przejazd najszybszą drogą z miasta $i$ do $j$.
-	\end{block}
-	\begin{block}{Funkcja kary}
-		\begin{equation}
-			p : N \rightarrow N \rightarrow R 
-		\end{equation}
-		Funkcja kary, przyjmująca kolejno numer miasta, czas rozładunku i zwracająca karę w postaci liczby rzeczywistej.
-	\end{block}
-\end{frame}
-
-\begin{frame}
-	\begin{block}{Rozwiązania dopuszczalne}
-		Rozwiązaniem dopuszczalnym (sepłniającym warunki zadania) jest permutacja liczb $1, \cdots, n$.
-	\end{block}
-
-	\begin{block}{Uzasadnienie}
-		\begin{itemize}
-			\item W rozwiązniu musza znaleść sie wszystkie miasta. (definicja problemu)
-			\item W rozwiązaniu miasta nie mogą sie powtarzać. (nierówność trójkąta
-				+ założenie o nieskończonej ładowności ciężarówki
-				+ możliwość czekania w dowolnym mieście)
-			\item W rozwiazniu nie uwzgledniamy magazynu. (to jest punkt startowy i końcowy
-				+ założenie o nieskończonej ładowności ciężarówki)	
-		\end{itemize}
-	\end{block}
-\end{frame}
-

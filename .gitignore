@@ -1,0 +1,7 @@
+*.nav
+*.toc
+*.out
+*.aux
+*.dvi
+
+*.swp
