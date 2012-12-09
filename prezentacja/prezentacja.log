@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  6 NOV 2012 23:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  7 NOV 2012 09:48
 entering extended mode
  %&-line parsing enabled.
 **prezentacja.tex
@@ -1272,7 +1272,7 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 29.
+(Font)              scaled to size 10.40245pt on input line 30.
 
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
@@ -1332,7 +1332,7 @@ ic/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/te
 xmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts
 /type1/urw/helvetic/uhvr8a.pfb>
-Output written on prezentacja.pdf (12 pages, 137035 bytes).
+Output written on prezentacja.pdf (12 pages, 137910 bytes).
 PDF statistics:
  381 PDF objects out of 1000 (max. 8388607)
  25 named destinations out of 1000 (max. 500000)

@@ -15,10 +15,11 @@
 		\begin{algorithm}[H]
 			\KwData{G -graf pełny wazony, w - funkcja wagowa}
 			\KwResult{trojka $\left<T, p, t_{max}\right>$}
-			$f$ -- funkcja przyporządkowwujaca wierzchołkom grafu kolejne liczby naturalne \\
-			$p(v, t) = \lambda\left( v, t \right) \rightarrow t$ \\
+			$f$ -- funkcja przyporządkowywujaca wierzchołkom grafu kolejne liczby naturalne \\
+			$g$ -- funkcja przyporządkowwywująca krawędziom kolejne liczby naturalne \\
+			$p(v, t) = \lambda\left( v, t \right) \rightarrow \sum_{\{u, v\} \in E} (2^{g(\left\{u, v\right\})} \& t) \cdot w(\left\{ u, v \right\}) $ \\
 			\ForAll{$v, u \in V$}{
-				$T[f(v), f(u)] = w(\left\{v, u\right\})$ \\
+				$T[f(v), f(u)] = 2^{g(\left\{v,u\right\})}$ \\
 			}
 			$t_{max} = \sum\limits_{i=2}^{|V|} w(f(v_{i-1}), f(v_i))$ \\
 			\Return $\left< T, p , t_{max} \right> $
