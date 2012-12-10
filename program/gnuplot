@@ -1,0 +1,17 @@
+set terminal png
+set grid
+set output "./charts/rc_201.1.png"
+plot "./outputs/rc_201.1.txt.out" using 1:2 title "rc_201.1.txt (20 nodes)" with boxes
+
+set output "./charts/rc_201.2.png"
+plot "./outputs/rc_201.2.txt.out" using 1:2 title "rc_201.2.txt (20 nodes)" with boxes
+
+set output "./charts/rc_201.3.png"
+plot "./outputs/rc_201.3.txt.out" using 1:2 title "rc_201.3.txt (20 nodes)" with boxes
+
+set output "./charts/rc_201.4.png"
+plot "./outputs/rc_201.4.txt.out" using 1:2 title "rc_201.4.txt (20 nodes)" with boxes
+
+
+
+
