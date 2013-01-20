@@ -121,7 +121,7 @@ def brute_algorithm(instance):
         
 
 def temperature(x, delta = 1.0):
-    return 0.5 / (1.0 + math.exp(x)*10)  # math.sqrt(math.sqrt(math.sqrt(x))) #(math.exp(x) - math.exp(0))/(math.exp(1) - math.exp(0))
+    return math.exp((-1)*delta/x)#0.5 / (1.0 + math.exp(x)*10)  # math.sqrt(math.sqrt(math.sqrt(x))) #(math.exp(x) - math.exp(0))/(math.exp(1) - math.exp(0))
 
 def simulated_anealing(instance):
     trace = []
