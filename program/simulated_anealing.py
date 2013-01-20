@@ -22,7 +22,7 @@ def read_instance(file_name):
 def rand_neightbour_2(x):
     n = len(x)
     y = list(x)
-    for i in xrange(n/5):
+    for i in xrange(4):#n/5):
         i, j = randint(0, n-1), randint(0, n-2)
         if j >= i:
             j += 1
@@ -121,28 +121,40 @@ def brute_algorithm(instance):
         
 
 def temperature(x, delta = 1.0):
-    return math.exp((-1)*delta/x)#0.5 / (1.0 + math.exp(x)*10)  # math.sqrt(math.sqrt(math.sqrt(x))) #(math.exp(x) - math.exp(0))/(math.exp(1) - math.exp(0))
+    #print "x: ",x
+    if x == 0:
+        return 0.5
+    y = delta/float(x)
+    #print "y: ", y
+    if y > 90:
+        return 0
+    else:
+        return math.exp(-y) #0.5 / (1.0 + math.exp(x)*10)  # math.sqrt(math.sqrt(math.sqrt(x))) #(math.exp(x) - math.exp(0))/(math.exp(1) - math.exp(0))
 
 def simulated_anealing(instance):
     trace = []
     (n, w, t) = instance
-    s = [i for i in xrange(1, n+1)]
+    s = [i+1 for i in xrange(n)]
     shuffle(s)
     trace.append(s)
     k, k_max = 0, n*n
     print "starting point: ", s
     while k < k_max:        
+        
         s1 = s
         s2 = rand_neightbour_2(s) #select_best_neightbour(s, instance) #rand_neightbour(s)
         f1, f2 = f(s1, instance), f(s2, instance)
-        if f1 > f2:
+        t = temperature((k+1 / float(k_max+1)), 2.0)
+        r = random()
+        #r = 1.0
+        if f1[0] < f2[0]:
             s1, s2 = s2, s1
-        if temperature(k / float(k_max), f1[0] - f2[0]) < random():
+        if t < r:
             s = s1
         else:
             s = s2
         trace.append(s)
-        print k, s, f(s, instance), temperature(k / float(k_max))
+        print k, s, f(s, instance), t, r, f1, f2
         k += 1
     return (s, trace)
 
