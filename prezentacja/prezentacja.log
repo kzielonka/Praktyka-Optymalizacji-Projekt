@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  20 JAN 2013 18:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.6)  21 JAN 2013 02:04
 entering extended mode
  %&-line parsing enabled.
 **prezentacja.tex
@@ -1360,32 +1360,24 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [17
 
-] <./slajdy/1.jpg, id=482, 813.0375pt x 565.36218pt>
-File: ./slajdy/1.jpg Graphic file (type jpg)
- <use ./slajdy/1.jpg>
-Overfull \hbox (19.0761pt too wide) in paragraph at lines 28--28
-[]  
- []
+]) (./slajdy/technologia.tex
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 18.
 
-
-Overfull \vbox (32.55632pt too high) detected at line 28
- []
-
-
+(/usr/share/texmf-texlive/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [18
 
- <./slajdy/1.jpg>] <./slajdy/2.jpg, id=509, 842.39719pt x 545.78906pt>
-File: ./slajdy/2.jpg Graphic file (type jpg)
+]) (./slajdy/wyniki.tex <charts/rc_201_1.png, id=510, 642.4pt x 481.8pt>
+File: charts/rc_201_1.png Graphic file (type png)
 
-<use ./slajdy/2.jpg>
-Overfull \hbox (30.81976pt too wide) in paragraph at lines 35--35
-[][]  
- []
-
+<use charts/rc_201_1.png>
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 7.
 
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
@@ -1393,48 +1385,17 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
 [19
 
- <./slajdy/2.jpg>] <./slajdy/3.jpg, id=537, 792.71156pt x 386.19281pt>
-File: ./slajdy/3.jpg Graphic file (type jpg)
-
-<use ./slajdy/3.jpg>
-Overfull \hbox (10.94586pt too wide) in paragraph at lines 42--42
-[][]  
- []
-
-
+ <./charts/rc_201_1.png (PNG copy)>]
+<charts/rc_201_2.png, id=538, 642.4pt x 481.8pt>
+File: charts/rc_201_2.png Graphic file (type png)
+ <use charts/rc_201_2.png>
 Overfull \hbox (51.01408pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [20
 
- <./slajdy/3.jpg>] <./slajdy/4.jpg, id=563, 810.02625pt x 584.1825pt>
-File: ./slajdy/4.jpg Graphic file (type jpg)
-
-<use ./slajdy/4.jpg>
-Overfull \hbox (17.87161pt too wide) in paragraph at lines 49--49
-[][]  
- []
-
-
-Overfull \vbox (0.56335pt too high) detected at line 49
- []
-
-
-Overfull \hbox (51.01408pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[21
-
- <./slajdy/4.jpg>])
-Overfull \hbox (51.01408pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[22
-
-]
+ <./charts/rc_201_2.png (PNG copy)>])
 \tf@nav=\write5
 \openout5 = `prezentacja.nav'.
 
@@ -1446,24 +1407,25 @@ Overfull \hbox (51.01408pt too wide) has occurred while \output is active
 
  (./prezentacja.aux) ) 
 Here is how much of TeX's memory you used:
- 15295 strings out of 495026
- 257127 string characters out of 1181803
- 373309 words of memory out of 3000000
- 17974 multiletter control sequences out of 15000+50000
- 46807 words of font info for 78 fonts, out of 3000000 for 9000
+ 15333 strings out of 495026
+ 257935 string characters out of 1181803
+ 373308 words of memory out of 3000000
+ 18005 multiletter control sequences out of 15000+50000
+ 50256 words of font info for 82 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 45i,18n,57p,319b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,18n,57p,345b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/
 fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/txfonts/txex.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/te
-xmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts
-/type1/urw/helvetic/uhvr8a.pfb>
-Output written on prezentacja.pdf (22 pages, 724236 bytes).
+ic/txfonts/t1xtt.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txex.
+pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsy.pfb></usr/share/t
+exmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helve
+tic/uhvr8a.pfb>
+Output written on prezentacja.pdf (20 pages, 204111 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
