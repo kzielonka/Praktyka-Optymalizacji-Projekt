@@ -1,0 +1,7 @@
+set ylabel "p"
+set xlabel "i/n"
+set xrange [0:1]
+set yrange [0.5:1]
+set terminal pngcairo size 1024,800 enhanced font 'Verdana,18'
+set output "charts/temp.png"
+plot (1-exp(1/(x-1))) title "Funkcja temperatury"

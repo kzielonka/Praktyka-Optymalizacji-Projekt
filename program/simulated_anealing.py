@@ -137,7 +137,7 @@ def simulated_anealing(instance):
     s = [i+1 for i in xrange(n)]
     shuffle(s)
     trace.append(s)
-    k, k_max = 0, n*n
+    k, k_max = 0, min(n*n, 600)
     print "starting point: ", s
     while k < k_max:        
         
@@ -167,6 +167,7 @@ def simulated_anealing(instance):
 #save_results("data.dat", trace, instance)
 
 for file_name in os.listdir("./instances/"):
+    file_name = "rc_201.4.txt"
     print "File: ", file_name
     path = os.path.join("./instances/", file_name)
     instance = read_instance(path)

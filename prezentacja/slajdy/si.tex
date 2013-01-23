@@ -13,6 +13,26 @@
 		\item algorytm zatrzymuje się gdy w ciągu ustalonej liczby iteracji nie uda się osiągnąć lepszego wyniku
 	\end{enumerate}
 
+    \begin{block}{Wybór sąsiada}
+        Parokrotne wykonanie transpozycji na rozpatrywanym osobiku.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Temeratura}
+    \begin{equation}
+        t(i, n) = 1 - e^\frac{1}{\frac{i}{n} - 1}
+    \end{equation}
+
+    \begin{description}
+        \item[$i$] -- iteracja
+        \item[$n$] -- maksymalna ilość iteracji
+    \end{description}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=5cm]{charts/temp.png}
+        \caption{Wykres prawdopodobienstwa wyboru lepszego osobnika}
+    \end{figure}
 \end{frame}
 
 %\begin{frame}{Symulowane wyżarzanie [ang. \textit{Simulated Annealing}]}
